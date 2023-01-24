@@ -75,6 +75,7 @@
             margin: rem(16) rem(16) 0;
             justify-content: space-between;
             padding: 0 0 rem(50);
+	display: none !important;
 
             @include helper-breakpoint-media-min($xl-min) {
                 padding: 0 0 rem(86);
